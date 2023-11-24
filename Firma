@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMN Digital Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #694a97;
+            color: #fff;
+        }
+        header {
+            background-color: #333;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+        section {
+            padding: 2em;
+        }
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 1em;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+		<img src="pfad/zum/dein-logo.png" alt="Dein Logo" style="max-width: 100%;">
+        <h1>DMN Digital Services</h1>
+        <p>IT-Tec - Your Safe Place in an unsafe World!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Dienstleistungen</a>
+        <a href="#about">Über uns</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+
+    <section id="home">
+        <h2>Willkommen bei Deiner IT-Firma</h2>
+        <p>Wir bieten innovative IT-Lösungen für Unternehmen.</p>
+    </section>
+
+    <section id="services">
+        <h2>Unsere Dienstleistungen</h2>
+        <ul>
+            <li>Anti-Viren-Programme</li>
+            <li>IT-Beratung</li>
+            <li>Cybersicherheit</li>
+			<li>VPN-Pakete</li>
+            <!-- Weitere Dienstleistungen hier -->
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>Über Uns</h2>
+        <p>Wir sind ein erfahrenes Team von IT-Experten, das sich darauf konzentriert, die besten Lösungen für unsere Kunden bereitzustellen.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Du kannst uns unter info@DMN.com erreichen.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 DMN Digital Services</p>
+    </footer>
+
+</body>
+</html>
